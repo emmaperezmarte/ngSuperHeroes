@@ -10,8 +10,5 @@ const APP_ROUTES: Routes = [
 
 ];
 
-@NgModule({
-    imports: [RouterModule.forChild(routes)],
-    exports: [RouterModule]
-})
+  
 export const app_routing = RouterModule.forRoot(APP_ROUTES);
